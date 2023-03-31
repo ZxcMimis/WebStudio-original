@@ -1,0 +1,135 @@
+
+.section-main {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 4.2;
+    color: #000000;
+
+}
+
+.section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    color: #212121;
+}
+
+.section-title1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 3;
+    color: #212121;
+
+}
+
+.section-Description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #757575;
+
+}
+
+.footer-WebStudio {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 2.2142;
+color: #2196F3;
+}
+
+.footer-address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #000000;
+    
+}
+
+.header-WebStudio {
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 2.2142;
+color: #2196F3;
+}
+
+.nav-index {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+color: #2196F3;
+
+}
+
+.nav-portfoli{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+color: #212121;
+
+}
+
+.nav-kontakt {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+color: #212121;
+}
+
+.nav-address-email {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+color: #2196F3;
+
+}
+
+.nav-address-phone {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+color: #757575;
+}
+
+.section-title-work {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: #212121;
+
+}
+
+.section-paragraph {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.142;   
+    color: #757575;
+    
+}
