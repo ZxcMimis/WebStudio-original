@@ -1,5 +1,5 @@
 * {
-    text-decoration: 0;
+    text-decoration: none;
 
 }
 
@@ -11,8 +11,13 @@ font-family: 'Roboto';
 .section-main {
     font-weight: 900;
     font-size: 44px;
-    line-height: 4.2;
-    color: #f8f8f8;
+    line-height: 1.36;
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
 
 }
 
@@ -33,10 +38,10 @@ font-family: 'Roboto';
 
 .section-Description {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
     color: #757575;
-
 }
 
 .footer-WebStudio {
@@ -60,8 +65,12 @@ font-family: 'Roboto';
 .footer-address {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1;
-    color: #f7f7f7;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    
 }
 
 .header-WebStudio {
@@ -80,62 +89,29 @@ color: #2196F3;
     color: #000000;
 }
 
-.nav-index {
+.nav-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
-color: #2196F3;
 
-}
-.nav-index:hover {
-    color: blue
-}
-
-.nav-portfoli {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.42;
-    letter-spacing: 0.02em;
-    color: #212121;
-    
-
-}
-
-.nav-portfoli:hover {
-    color: blue
-}
-
-.nav-kontakt {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.142;
 color: #212121;
-}
 
-.nav-kontakt:hover {
-    color: blue
-}
-
-.nav-address-email {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.142;
-color: #2196F3;
 
 }
-.nav-address-email:hover {
-    color: blue
+.nav-link:hover {
+    color: #2196F3
+
 }
 
-.nav-address-phone {
+.nav-contact {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.142;
 color: #757575;
 }
 
-.nav-address-phone:hover {
-    color: blue
+.nav-contact:hover {
+    color: #2196F3;
 }
 
 .section-title-work {
@@ -161,10 +137,16 @@ color: #757575;
 }
 
 .section-button {
-font-weight: 700;
-font-size: 16px;
-line-height: 18.75px;
-color: #111111;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.85;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+    
 }
 
 .nav-button {
@@ -175,5 +157,13 @@ color: #111111;
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
- 
+}
+
+.section-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+
+color: #212121;
 }
