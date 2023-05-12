@@ -8,21 +8,23 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 1170px;
     outline: solid red;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-top: 94px;
 }
 
+.margin{
+    margin-left: 30px;  
+}
 
 .section-main {
+    text-align: center;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-
-    text-align: center;
+    width: 696px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 
@@ -30,7 +32,43 @@ body {
 
 }
 
+.section-img{
+    
+    width: 370px;
+    height: 294px;
+    left: 1024px;
+    top: 1075px;
+    display: inline-block;
+    
+}
+
+.section-one {
+    background: #2F303A;
+}
+
+.section-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-list
+
+.section-one{
+    background: #2F303A;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .section-title {
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.142;
@@ -111,6 +149,8 @@ body {
 }
 
 .nav-link:hover {
+  border-radius: 4px;
+  text-decoration: none;
     color: #2196F3
 }
 
@@ -148,17 +188,28 @@ body {
 }
 
 .section-button {
-    font-weight: 700;
+    font-family: 'Roboto';
+    font-weight: 670px;
     font-size: 16px;
-    line-height: 1.85;
-    background-color: #2196F3;
+    vertical-align: middle;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    max-width: 100%;
+    display: flex;
+    padding: 10px 32px;
 
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.container-two{
     display: flex;
     align-items: center;
-    letter-spacing: 0.06em;
-
-    color: #FFFFFF;
-
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 30px;
 }
 
 .hero-button {
@@ -178,4 +229,22 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
+}
+
+.header-iteam {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    background-color: #fff;
+}
+.footer{
+    background: #2F303A;
+
+}
+
+.contact-list {
+
+    
 }
