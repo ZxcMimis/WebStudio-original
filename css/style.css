@@ -269,6 +269,7 @@ body {
 
 .team-item {
     background: #ffffff;
+
 }
 
 .team-title {
@@ -284,14 +285,19 @@ body {
 
 .team-img {
     padding: 30px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
 }
 
 .team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 0.842;
-    /* identical to box height */
-
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -300,6 +306,9 @@ body {
 }
 
 .team-text {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
@@ -348,11 +357,9 @@ body {
 }
 
 .poster-title {
-    width: 322px;
-    height: 36px;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
+    line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
 }
@@ -370,7 +377,7 @@ body {
     height: 294px;
 }
 
-..header {
+.header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
@@ -459,4 +466,22 @@ body {
 
 .header-emael:focus {
     color: #2196f3;
+}
+
+
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.card-poster {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
 }
