@@ -1,4 +1,4 @@
-* {
+a {
     text-decoration: none;
 
 }
@@ -30,6 +30,7 @@ body {
 }
 
 .section-main {
+    font-family: 'Roboto';
     text-align: center;
     font-weight: 900;
     font-size: 44px;
@@ -255,8 +256,6 @@ body {
 .work-img {
     height: 313px;
     width: 370px;
-    margin-left: 50px;
-    padding-top: 49px;
 }
 
 
@@ -278,13 +277,12 @@ body {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 188px;
+    padding-top: 188px;
 
     color: #212121;
 }
 
 .team-img {
-    padding: 30px;
     width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -292,8 +290,6 @@ body {
 }
 
 .team-name {
-    font-weight: 500;
-    font-size: 16px;
     line-height: 0.842;
     font-size: 18px;
     font-weight: bold;
@@ -301,6 +297,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
     letter-spacing: 0.03em;
+    
 
     color: #212121;
 
@@ -309,14 +306,12 @@ body {
 .team-text {
     font-size: 14px;
     color: #888888;
-    margin-bottom: 20px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 124px;
 }
 
 .button-list {
@@ -378,11 +373,6 @@ body {
 .poster-img {
     width: 370px;
     height: 294px;
-}
-
-.header {
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .header-flex {
@@ -487,4 +477,8 @@ body {
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px;
+}
+
+.team{
+    padding-bottom: 94px;
 }
