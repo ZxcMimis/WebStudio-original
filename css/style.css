@@ -88,16 +88,18 @@ body {
     
 }
 
-.footer-WebStudio {
+.footer-logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19;
+    line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #2196F3;
-}
+    color: #2196f3;
+    padding-top: 60px;
+    display: flex;
+  }
 
-.footer-WebStudio1 {
+.footer-word {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -106,14 +108,43 @@ body {
     color: rgb(252, 252, 252);
 }
 
+.footer-info{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    display: flex;
+    padding-top: 20px;
+
+    color: #FFFFFF;
+
+}
+
+.footer-phonenumber {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    display: flex;
+    padding-bottom: 60px;
+    padding-top: 9px;
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
 .footer-address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     font-style: normal;
     letter-spacing: 0.03em;
+    display: flex;
+    padding-top: 9px;
 
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
 
 }
 
@@ -308,16 +339,14 @@ body {
 }
 
 .team-text {
-    font-size: 14px;
-    color: #888888;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.2;
+    line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-bottom: 30px;
 }
-
 .button-list {
     display: flex;
     align-items: center;
