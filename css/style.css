@@ -281,6 +281,10 @@ body {
     color: #212121;
 }
 
+.work{
+    padding-bottom: 94px;
+}
+
 
 .work-list {
     justify-content: space-evenly;
@@ -416,8 +420,8 @@ body {
 .header-flex {
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
-    margin-top: 24px;
+    padding-top: 25px;
+    padding-bottom: 24px;
 }
 
 .header-navigation {
