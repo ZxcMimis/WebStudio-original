@@ -1,4 +1,4 @@
-a {
+a,h2,p {
     text-decoration: none;
 
 }
@@ -55,8 +55,8 @@ body {
     display: flex;
     gap: 30px;
     align-items: center;
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .header-container {
@@ -76,6 +76,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 10px;
     
     color: #212121;
 }
@@ -119,7 +120,7 @@ body {
     font-style: normal;
     letter-spacing: 0.03em;
     display: flex;
-    padding-top: 20px;
+    margin-top: 20px;
 
     color: #FFFFFF;
 
@@ -133,7 +134,7 @@ body {
     letter-spacing: 0.03em;
     display: flex;
     padding-bottom: 60px;
-    padding-top: 9px;
+    margin-top: 9px;
 
     color: rgba(255, 255, 255, 0.6);
 
@@ -146,7 +147,7 @@ body {
     font-style: normal;
     letter-spacing: 0.03em;
     display: flex;
-    padding-top: 9px;
+    margin-top: 9px;
 
     color: rgba(255, 255, 255, 0.6);
 
@@ -189,6 +190,7 @@ body {
 
 .section-button {
     font-family: 'Roboto';
+    font-weight: 700;
     font-size: 16px;
     vertical-align: middle;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -355,13 +357,17 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
+
+.hero-main{
+    padding-top: 94px;
+}
+
 .button-list {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 94px;
     gap: 8px;
 }
 
