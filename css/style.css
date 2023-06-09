@@ -241,6 +241,7 @@ body {
     line-height: 1.7;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 
     color: #212121;
 }
@@ -350,7 +351,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 30px;
     padding-top: 34px;
     padding-bottom: 94px
 }
@@ -471,4 +471,5 @@ body {
 
 .poster-item{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
