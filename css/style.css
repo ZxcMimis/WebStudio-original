@@ -1,4 +1,6 @@
-a,h2,p {
+a,
+h2,
+p {
     text-decoration: none;
 
 }
@@ -8,6 +10,7 @@ body {
 }
 
 .container {
+    outline: solid #2196F3;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -37,7 +40,7 @@ body {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     width: 696px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -76,21 +79,18 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-bottom: 10px;
-    
     color: #212121;
+    margin-bottom: 10px;
 }
 
 .section-Description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    
     letter-spacing: 0.03em;
-    
     color: #757575;
-    
-    
+
+
 }
 
 .footer-logo {
@@ -102,7 +102,7 @@ body {
     color: #2196f3;
     padding-top: 60px;
     display: flex;
-  }
+}
 
 .footer-word {
     font-family: "Raleway";
@@ -113,7 +113,7 @@ body {
     color: rgb(252, 252, 252);
 }
 
-.footer-info{
+.footer-info {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -283,7 +283,7 @@ body {
     color: #212121;
 }
 
-.work{
+.work {
     padding-bottom: 94px;
 }
 
@@ -303,7 +303,7 @@ body {
 
 }
 
-.team{
+.team {
     background: #F5F4FA;
 }
 
@@ -344,7 +344,7 @@ body {
     margin-bottom: 10px;
     text-align: center;
     letter-spacing: 0.03em;
-    
+
 
     color: #212121;
 
@@ -360,7 +360,7 @@ body {
     margin-bottom: 30px;
 }
 
-.hero-main{
+.hero-main {
     padding-top: 94px;
 }
 
@@ -510,12 +510,40 @@ body {
 }
 
 
-.team{
+.team {
     padding-bottom: 94px;
     padding-top: 94px;
 }
 
-.poster-item{
+.poster-item {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
+}
+
+
+.section-item::before {
+    content: "";
+    height: 120px;
+    display: block;
+    background-repeat: no-repeat;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    background-position: center;
+    margin-bottom:30px;
+}
+
+.section-item:first-child::before {
+    background-image: url(../images/antenna\ 1.png);
+}
+
+.section-item:nth-child(2)::before {
+    background-image: url(../images/clock\ 1.png);
+}
+
+.section-item:nth-child(3)::before {
+    background-image: url(../images/diagram\ 1.png);
+}
+
+.section-item:last-child::before {
+    background-image: url(../images/astronaut\ 1.png);
 }
