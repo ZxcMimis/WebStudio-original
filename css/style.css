@@ -50,7 +50,7 @@ body {
 
 
 .section-one {
-    background: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.png);
 }
 
 .section-list {
@@ -187,20 +187,24 @@ body {
 }
 
 .section-button {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 16px;
-    vertical-align: middle;
+    background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    max-width: 100%;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
     display: flex;
-    padding: 10px 32px;
-
-    background-color: #2196F3;
-    color: #FFFFFF;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+    padding-left: 24px;
+    border: 0;
 }
-
 .container-two {
     display: flex;
     align-items: center;
