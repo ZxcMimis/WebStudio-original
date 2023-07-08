@@ -50,9 +50,19 @@ body {
 
 
 .section-one {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    flex-direction: column;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 118px;
+    padding-right: 60px;
+    padding-bottom: 118px;
+    padding-left: 60px;
 }
-
 .section-list {
     display: flex;
     gap: 30px;
@@ -152,12 +162,7 @@ body {
 }
 
 
-.header-contacts {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    margin-left: auto;
-}
+
 
 
 .nav-contact:hover {
@@ -251,13 +256,6 @@ body {
     justify-content: center;
 }
 
-
-.header-contacts {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    margin-left: auto;
-}
 
 
 .header-link {
@@ -496,6 +494,14 @@ body {
     line-height: 1.14;
 }
 
+.header-icon {
+  padding-right: 10px;
+}
+
+.header-icon:hover {
+  color: #2196f3;
+}
+
 .header-contacts {
     display: flex;
     gap: 50px;
@@ -555,3 +561,27 @@ body {
 .section-item:last-child::before {
     background-image: url(../images/astronaut\ 1.png);
 }
+
+.company-text {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    padding-top: 94px;
+    padding: 50px;
+  }
+  
+  .company-list {
+    padding-bottom: 94px;
+    display: flex;
+    gap: 30px;
+    padding-left: 247px;
+  }
+  
+  .company-img {
+    padding:16px 32px;
+    border-radius: 4px;
+
+  }
