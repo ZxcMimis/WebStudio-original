@@ -52,7 +52,8 @@ body {
 .section-one {
     display: flex;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
+    ;
     flex-direction: column;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.png);
     background-repeat: no-repeat;
@@ -60,6 +61,7 @@ body {
     background-position: center;
 
 }
+
 .section-list {
     display: flex;
     gap: 30px;
@@ -207,6 +209,7 @@ body {
     padding-left: 24px;
     border: 0;
 }
+
 .container-two {
     display: flex;
     align-items: center;
@@ -384,7 +387,7 @@ body {
     padding-bottom: 6px;
     padding-left: 22px;
     padding-right: 22px;
-    
+
 }
 
 .hero-button:hover {
@@ -492,11 +495,11 @@ body {
 }
 
 .header-icon {
-  padding-right: 10px;
+    padding-right: 10px;
 }
 
 .header-icon:hover {
-  color: #2196f3;
+    color: #2196f3;
 }
 
 .header-contacts {
@@ -540,7 +543,7 @@ body {
     background-color: #f5f4fa;
     border-radius: 4px;
     background-position: center;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .section-item:first-child::before {
@@ -559,41 +562,94 @@ body {
     background-image: url(../images/astronaut\ 1.png);
 }
 
-.company-text {
-    color: #212121;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
+.clients{
     padding-top: 94px;
-    padding: 50px;
-  }
-  
-.icons-list {
-    display: flex;
-    align-content: center;
-    justify-content: center;
     padding-bottom: 94px;
 }
 
-.icon-item {
-    margin-right: 30px;
+.company-text {
+    color: #212121;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        letter-spacing: 1.08px;
+        margin-bottom: 50px;
+}
 
+
+
+.icons-list {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+}
+
+.icons-item {
+    width: 170px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    cursor: pointer;
+
+}
+
+.icons-item:hover{
+    border: 1px solid #2196F3;
+    fill: #2196F3;
 }
 
 .icons-svg {
-    fill: rgba(175, 177, 184, 1);
-    border-radius: 4px;
-    border: 1px solid #AFB1B8;
-    width: 170px;
-    height: 92px;
+    width: 106px;
+    height: 60px;
 }
 
-.icons-svg:hover {
-    fill: rgba(33, 150, 243, 1);
-    border-radius: 4px;
-    border: 1px solid #2196F3;
-    ;
+
+
+.footer-icon-title {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
 }
 
+.footer-svg-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-svg-item {
+    border-radius: 100%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.footer-svg-item:hover {
+    background: #2196F3;
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    fill: #FFF;
+}
+
+.footer-list {
+    width: 250px;
+}
+
+.footer .container {
+    display: flex;
+}
+
+.footer-box-svg {
+    padding-top: 72px;
+    padding-left: 70px;
+}
