@@ -657,5 +657,29 @@ body {
 .icon-team{
     width: 20px;
     height: 20px;
-    justify-content: space-between;
+}
+
+.icon-team-list{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 42px;
+    flex-wrap: wrap;
+}
+
+.icon-team-item{
+        margin-right: 10px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+
+.icon-team-item::after::before{
+    box-sizing: border-box;
+}
+
+.team-link:hover{
+    fill: #FFF;
 }
