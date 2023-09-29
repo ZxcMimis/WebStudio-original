@@ -653,3 +653,9 @@ body {
     padding-top: 72px;
     padding-left: 70px;
 }
+
+.icon-team{
+    width: 20px;
+    height: 20px;
+    justify-content: space-between;
+}
