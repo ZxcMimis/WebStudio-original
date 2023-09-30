@@ -357,7 +357,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom: 30px;
 }
 
 .hero-main {
@@ -562,46 +561,48 @@ body {
     background-image: url(../images/astronaut\ 1.png);
 }
 
-.clients{
+.clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .company-text {
     color: #212121;
-        text-align: center;
-        font-size: 36px;
-        font-weight: 700;
-        letter-spacing: 1.08px;
-        margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
 }
 
 
 
-.icons-list {
+.clients-list {
     display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
-.icons-item {
+.clients-item {
     width: 170px;
     padding: 16px 32px;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     cursor: pointer;
+    fill: #AFB1B8;
 
 }
 
-.icons-item:hover{
+.clients-item:hover {
     border: 1px solid #2196F3;
     fill: #2196F3;
 }
 
-.icons-svg {
+.clients-icons {
     width: 106px;
     height: 60px;
+
 }
 
 
@@ -654,32 +655,43 @@ body {
     padding-left: 70px;
 }
 
-.icon-team{
+.icon-team-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    padding-bottom: 30px;
+}
+
+.icon-team-item {
+    border-radius: 100%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+}
+
+.icon-team {
     width: 20px;
     height: 20px;
+    fill: #AFB1B8;
 }
 
-.icon-team-list{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 42px;
-    flex-wrap: wrap;
-}
-
-.icon-team-item{
-        margin-right: 10px;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-}
-
-.icon-team-item::after::before{
-    box-sizing: border-box;
-}
-
-.team-link:hover{
+.icon-team-item:hover .icon-team {
     fill: #FFF;
+}
+
+.icon-team-item:hover {
+    background-color: #2196F3;
+}
+
+.header-svg {
+    width: 16px;
+    height: 12px;
+    flex-shrink: 0;
+    fill: #757575;
+}
+
+.header-svg:hover{
+    fill: #2196F3;
 }
