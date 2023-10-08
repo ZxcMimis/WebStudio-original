@@ -394,6 +394,11 @@ body {
     background: #2196f3;
 }
 
+.hero-button:focus {
+    color: #ffffff;
+    background: #2196f3;
+}
+
 
 
 .posters-list {
@@ -438,13 +443,7 @@ body {
     align-items: center;
 }
 
-.header-phonenumber {
-    color: #757575;
-}
 
-.header-phonenumber:hover {
-    color: #2196f3;
-}
 
 .header-logo2 {
     color: #2196f3;
@@ -520,6 +519,17 @@ body {
     color: #2196f3;
 }
 
+.header-phonenumber {
+    color: #757575;
+}
+
+.header-phonenumber:hover {
+    color: #2196f3;
+}
+
+.header-phonenumber:focus {
+    color: #2196f3;
+}
 
 .team {
     padding-bottom: 94px;
@@ -636,6 +646,8 @@ body {
     background: #2196F3;
 }
 
+
+
 .footer-icon {
     width: 20px;
     height: 20px;
@@ -685,13 +697,28 @@ body {
     background-color: #2196F3;
 }
 
+
 .header-svg {
-    width: 16px;
+    max-width: 16px;
     height: 12px;
-    flex-shrink: 0;
     fill: #757575;
 }
 
-.header-svg:hover{
+/* .header-svg:hover {
+    fill: #2196F3;
+} */
+
+.navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navigation:hover .header-svg {
     fill: #2196F3;
 }
