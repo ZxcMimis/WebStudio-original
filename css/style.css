@@ -538,11 +538,19 @@ body {
 
 .poster-item {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
     flex-basis: calc((100% - 65px) / 3);
+    cursor: pointer;
+    
 
 }
 
+.poster-item:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.poster-item:focus {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
 
 .section-item::before {
     content: "";
@@ -722,3 +730,4 @@ body {
 .navigation:hover .header-svg {
     fill: #2196F3;
 }
+
