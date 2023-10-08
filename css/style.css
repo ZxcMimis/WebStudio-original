@@ -210,6 +210,16 @@ body {
     border: 0;
 }
 
+.section-button:hover,
+.section-button:focus {
+    background-color: #188CE8;
+    outline: none;
+}
+
+.team-link:focus{
+
+}
+
 .container-two {
     display: flex;
     align-items: center;
@@ -697,12 +707,13 @@ body {
     fill: #AFB1B8;
 }
 
-.icon-team-item:hover .icon-team {
+.icon-team-item:hover .icon-team , .icon-team-item:focus-within .icon-team {
     fill: #FFF;
 }
 
-.icon-team-item:hover {
+.icon-team-item:hover , .icon-team-item:focus-within   {
     background-color: #2196F3;
+
 }
 
 
