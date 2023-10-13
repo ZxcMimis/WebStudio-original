@@ -216,9 +216,7 @@ body {
     outline: none;
 }
 
-.team-link:focus{
 
-}
 
 .container-two {
     display: flex;
@@ -558,7 +556,7 @@ body {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.poster-item:focus {
+.poster-item:focus-within {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -620,9 +618,10 @@ body {
     cursor: pointer;
     fill: #AFB1B8;
 
+
 }
 
-.clients-item:hover {
+.clients-item:hover , .clients-item:focus-within {
     border: 1px solid #2196F3;
     fill: #2196F3;
 }
@@ -632,6 +631,7 @@ body {
     height: 60px;
 
 }
+
 
 
 
@@ -660,7 +660,7 @@ body {
     background: rgba(255, 255, 255, 0.10);
 }
 
-.footer-svg-item:hover {
+.footer-svg-item:hover , .footer-svg-item:focus-within {
     background: #2196F3;
 }
 
@@ -715,6 +715,8 @@ body {
     background-color: #2196F3;
 
 }
+
+
 
 
 .header-svg {
