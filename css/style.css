@@ -515,6 +515,8 @@ body {
     margin-left: auto;
 }
 
+
+
 .header-emael {
     color: #757575;
 }
@@ -740,7 +742,11 @@ body {
     align-items: center;
 }
 
-.navigation:hover .header-svg {
+.navigation:hover .header-svg , .navigation:focus .header-svg {
     fill: #2196F3;
+}
+
+.use-icon{
+    width: 500px;
 }
 
