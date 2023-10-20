@@ -550,7 +550,7 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     flex-basis: calc((100% - 65px) / 3);
     cursor: pointer;
-    
+
 
 }
 
@@ -623,7 +623,8 @@ body {
 
 }
 
-.clients-item:hover , .clients-item:focus-within {
+.clients-item:hover,
+.clients-item:focus-within {
     border: 1px solid #2196F3;
     fill: #2196F3;
 }
@@ -662,7 +663,8 @@ body {
     background: rgba(255, 255, 255, 0.10);
 }
 
-.footer-svg-item:hover , .footer-svg-item:focus-within {
+.footer-svg-item:hover,
+.footer-svg-item:focus-within {
     background: #2196F3;
 }
 
@@ -709,11 +711,13 @@ body {
     fill: #AFB1B8;
 }
 
-.icon-team-item:hover .icon-team , .icon-team-item:focus-within .icon-team {
+.icon-team-item:hover .icon-team,
+.icon-team-item:focus-within .icon-team {
     fill: #FFF;
 }
 
-.icon-team-item:hover , .icon-team-item:focus-within   {
+.icon-team-item:hover,
+.icon-team-item:focus-within {
     background-color: #2196F3;
 
 }
@@ -742,11 +746,46 @@ body {
     align-items: center;
 }
 
-.navigation:hover .header-svg , .navigation:focus .header-svg {
+.navigation:hover .header-svg,
+.navigation:focus .header-svg {
     fill: #2196F3;
 }
 
-.use-icon{
+.use-icon {
     width: 500px;
 }
 
+.box-work {
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(47, 48, 58, 0.80);
+    padding-top: 27px;
+    padding-bottom: 27px;
+    position: absolute;
+    top: 242px;
+    left: 0;
+
+}
+
+
+
+.work-name-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.work-item {
+    position: relative;
+    height: 294px;
+    width: 370px;
+
+}
