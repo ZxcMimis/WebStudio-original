@@ -416,7 +416,8 @@ body {
     flex-wrap: wrap;
     gap: 30px;
     padding-top: 50px;
-    padding-bottom: 94px
+    padding-bottom: 94px 
+   
 }
 
 .poster-title {
@@ -425,6 +426,7 @@ body {
     letter-spacing: 0.06em;
     color: #212121;
     margin: 24px;
+    
 }
 
 .poster-text {
