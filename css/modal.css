@@ -8,7 +8,8 @@
     border-radius: 4px;
     background: #ffffff;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    
 }
 
 .modal-input {
@@ -35,12 +36,12 @@
 
 .modal-checkbox {
     width: 16px;
-    height: 15px;
+    height: 11px;
     flex-shrink: 0;
     fill: #212121;
     margin-top: 20px;
     margin-right: 4px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .modal-form {
@@ -111,10 +112,10 @@
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
+    
 }
 
 .modal-label {
@@ -147,10 +148,17 @@
 }
 
 .modal-close {
-    padding: 5px 5px 1.5px 5px;
+    padding: 6px 8px 1.5px 6px;
     position: absolute;
     top: 8px;
     right: 8px;
     border: 2px solid #c9c9c9;
     border-radius: 50px;
+}
+
+.modal-clouse{
+    width: 11px;
+    height: 11px;
+    fill: #000;
+    margin-bottom: 3px;
 }
