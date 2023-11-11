@@ -22,6 +22,7 @@
     padding-left: 35px;
 }
 
+
 .modal-comment {
     flex-shrink: 0;
     border-radius: 4px;
@@ -115,8 +116,7 @@
     line-height: 24px;
     letter-spacing: 0.42px;
     vertical-align: baseline;
-    
-    
+
 }
 
 .modal-label {
