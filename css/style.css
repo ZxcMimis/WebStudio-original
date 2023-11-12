@@ -210,9 +210,14 @@ body {
     border: 0;
 }
 
+.section-button:hover{
+    transition: background-color 500ms linear 100ms ;
+    transform: scale(1.075) ;
+}
+
 .section-button:hover,
 .section-button:focus {
-    background-color: #188CE8;
+    background-color: #075391;
     outline: none;
 }
 
@@ -572,9 +577,13 @@ body {
     flex-basis: calc((100% - 65px) / 3);
     position: relative;
     overflow: hidden;
+
+
 }
 
 .poster-item:hover {
+    transform: scale(1.050);
+    transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 150ms linear 100ms;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -639,8 +648,13 @@ body {
     border: 1px solid #AFB1B8;
     cursor: pointer;
     fill: #AFB1B8;
+    
 
 
+}
+
+.clients-item:hover{
+    transform: scale(1.075);
 }
 
 .clients-item:hover,
@@ -684,6 +698,9 @@ body {
     background: rgba(255, 255, 255, 0.10);
 
 }
+.footer-svg-item:hover{
+    transform: scale(1.125);
+}
 
 .footer-svg-item:hover,
 .footer-svg-item:focus-within {
@@ -725,6 +742,10 @@ body {
     padding: 12px;
     width: 44px;
     height: 44px;
+}
+
+.icon-team-item:hover{
+    transform: scale(1.250) ;
 }
 
 .icon-team {
@@ -885,6 +906,16 @@ body {
     line-height: 30px;
     letter-spacing: 0.96px;
     padding: 7px 62px 10px 28px;
+    border: 5px;
+}
+
+.footer-send:hover{
+    background-color: #075391;
+}
+
+
+.footer-send:focus {
+    background-color: #075391;
 }
 
 .icon-footer-telegram {
@@ -899,30 +930,42 @@ body {
 
 }
 
-.text-card{
-
-    color: #fff;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0.54px;
-    line-height: 155.556%;
-}
-
-.box-card{
-    height: 294px;
-    background-color: rgba(33, 150, 243, 0.9);
+.text-card {
     position: absolute;
     top: 0;
     left: 0;
+    bottom: 0;
     right: 0;
-    padding: 63px 24px;
-    transform: translatey(-100%);
-    cursor: pointer;
-    transition-property: transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-top: 77px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    opacity: 0;
+    padding: 63px 24px 63px 24px;
+    transition: opacity 300ms linear;
 }
 
-.poster-item:hover .box-card .card-link:focus{
-    transform: translate(0%);
+.box-card {
+    position: relative;
+
+}
+
+.text-card:hover {
+    opacity: 1;
+    background: #188CE8;
+    width: 400px;
+    height: 295px;
+}
+
+.main-button:hover{
+    transform: scale(1.1);
+    transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 150ms linear 100ms;
+}
+
+.header-item:hover{
+    transform: scale(1.075);
 }
