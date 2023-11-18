@@ -117,6 +117,8 @@
     line-height: 24px;
     letter-spacing: 0.42px;
     vertical-align: baseline;
+    position: absolute;
+    top: 411px;
 }
 
 .modal-label {
@@ -133,11 +135,11 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 106%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
-    transition: opacity 1500ms linear 100 visibility 1500ms linear 100;
+    transition: opacity 250ms linear 10ms, visibility 250ms linear 10ms;
 }
 
 .backdrop.is-hidden {

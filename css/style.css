@@ -208,10 +208,11 @@ body {
     margin-top: 30px;
     padding-left: 24px;
     border: 0;
+    transition: background-color 500ms linear 100ms;
 }
 
 .section-button:hover{
-    transition: background-color 500ms linear 100ms ;
+
     transform: scale(1.075) ;
 }
 
@@ -527,7 +528,6 @@ body {
     position: absolute;
     top: 43px;
     left: 0;
-
 }
 
 
