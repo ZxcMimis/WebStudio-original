@@ -484,6 +484,8 @@ body {
     margin-left: 93px;
 }
 
+
+
 .header-link {
     font-weight: 500;
     color: #212121;
@@ -493,6 +495,9 @@ body {
     justify-content: right;
     position: relative;
 }
+
+
+
 
 .header-link:hover {
     color: #2196f3;
@@ -742,6 +747,7 @@ body {
     padding: 12px;
     width: 44px;
     height: 44px;
+    transition: transform 1s linear 50;
 }
 
 .icon-team-item:hover{
@@ -774,9 +780,9 @@ body {
     fill: #757575;
 }
 
-/* .header-svg:hover {
+.header-svg:hover {
     fill: #2196F3;
-} */
+}
 
 .navigation {
     font-weight: 500;
@@ -945,7 +951,7 @@ body {
     letter-spacing: 0.03em;
     color: #ffffff;
     opacity: 0;
-    padding: 63px 24px 63px 24px;
+
     transition: opacity 300ms linear;
 }
 
@@ -969,3 +975,7 @@ body {
 .header-item:hover{
     transform: scale(1.075);
 }
+
+
+
+

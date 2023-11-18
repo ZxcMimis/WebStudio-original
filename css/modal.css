@@ -8,7 +8,7 @@
     border-radius: 4px;
     background: #ffffff;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .modal-input {
@@ -77,6 +77,7 @@
     line-height: 30px;
     letter-spacing: 0.96px;
     margin-left: 120px;
+
 }
 
 .modal-persona {
@@ -101,7 +102,6 @@
     color: #2196f3;
     font-family: Roboto;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
@@ -112,11 +112,11 @@
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.42px;
     vertical-align: baseline;
-
 }
 
 .modal-label {
@@ -137,11 +137,13 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
+    transition: opacity 1500ms linear 100 visibility 1500ms linear 100;
 }
 
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
 }
 
 .no-scroll {
@@ -157,14 +159,14 @@
     border-radius: 50px;
 }
 
-.modal-clouse{
+.modal-clouse {
     width: 11px;
     height: 11px;
     fill: #000;
     margin-bottom: 3px;
 }
 
-.box-agreements{
+.box-agreements {
     justify-content: center;
     display: flex;
 }
