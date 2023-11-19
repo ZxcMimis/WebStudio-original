@@ -20,8 +20,12 @@
     margin-bottom: 10px;
     margin-top: 4px;
     padding-left: 35px;
+    
 }
 
+.modal-input:hover{
+    
+}
 
 .modal-comment {
     flex-shrink: 0;

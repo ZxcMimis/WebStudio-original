@@ -211,9 +211,9 @@ body {
     transition: background-color 500ms linear 100ms;
 }
 
-.section-button:hover{
+.section-button:hover {
 
-    transform: scale(1.075) ;
+    transform: scale(1.075);
 }
 
 .section-button:hover,
@@ -653,12 +653,12 @@ body {
     border: 1px solid #AFB1B8;
     cursor: pointer;
     fill: #AFB1B8;
-    
+
 
 
 }
 
-.clients-item:hover{
+.clients-item:hover {
     transform: scale(1.075);
 }
 
@@ -703,7 +703,8 @@ body {
     background: rgba(255, 255, 255, 0.10);
 
 }
-.footer-svg-item:hover{
+
+.footer-svg-item:hover {
     transform: scale(1.125);
 }
 
@@ -750,8 +751,8 @@ body {
     transition: transform 1s linear 50;
 }
 
-.icon-team-item:hover{
-    transform: scale(1.250) ;
+.icon-team-item:hover {
+    transform: scale(1.250);
 }
 
 .icon-team {
@@ -915,7 +916,7 @@ body {
     border: 5px;
 }
 
-.footer-send:hover{
+.footer-send:hover {
     background-color: #075391;
 }
 
@@ -951,9 +952,11 @@ body {
     letter-spacing: 0.03em;
     color: #ffffff;
     opacity: 0;
-
     transition: opacity 300ms linear;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
+
 
 .box-card {
     position: relative;
@@ -965,17 +968,15 @@ body {
     background: #188CE8;
     width: 400px;
     height: 295px;
+
+
 }
 
-.main-button:hover{
+.main-button:hover {
     transform: scale(1.1);
     transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 150ms linear 100ms;
 }
 
-.header-item:hover{
+.header-item:hover {
     transform: scale(1.075);
 }
-
-
-
-
