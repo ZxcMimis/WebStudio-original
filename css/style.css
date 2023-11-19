@@ -419,6 +419,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+
+}
+
+.poster {
     padding-top: 50px;
     padding-bottom: 94px
 }
@@ -582,8 +586,6 @@ body {
     flex-basis: calc((100% - 65px) / 3);
     position: relative;
     overflow: hidden;
-
-
 }
 
 .poster-item:hover {
@@ -952,9 +954,8 @@ body {
     letter-spacing: 0.03em;
     color: #ffffff;
     opacity: 0;
-    transition: opacity 300ms linear;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
+    transition: opacity 0.4s linear;
+
 }
 
 
@@ -971,6 +972,8 @@ body {
 
 
 }
+
+
 
 .main-button:hover {
     transform: scale(1.1);

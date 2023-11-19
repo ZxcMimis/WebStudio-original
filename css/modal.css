@@ -24,8 +24,13 @@
 }
 
 .modal-input:hover{
-    
+    border: 2px solid #2196f3;
 }
+
+.modal-input:focus {
+    border: 2px solid #2196f3;
+}
+
 
 .modal-comment {
     flex-shrink: 0;
@@ -36,6 +41,14 @@
     padding-right: 250px;
     padding-top: 15px;
     padding-left: 15px;
+}
+
+.modal-comment:hover{
+    border: 2px solid #2196f3;
+}
+
+.modal-comment:focus {
+    border: 2px solid #2196f3;
 }
 
 .modal-checkbox {
@@ -83,6 +96,8 @@
     margin-left: 120px;
 
 }
+
+
 
 .modal-persona {
     position: absolute;
@@ -157,7 +172,7 @@
 }
 
 .modal-close {
-    padding: 6px 8px 1.5px 6px;
+    padding: 5px 5px 1.5px 5px;
     position: absolute;
     top: 8px;
     right: 8px;
@@ -170,6 +185,8 @@
     height: 11px;
     fill: #000;
     margin-bottom: 3px;
+    display: flex;
+    justify-content: center;
 }
 
 .box-agreements {
