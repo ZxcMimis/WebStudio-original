@@ -939,13 +939,13 @@ body {
 
 }
 
-.text-card {
+.text-card{
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    padding-top: 77px;
+    padding-top: 150px;
     padding-left: 24px;
     padding-right: 24px;
     font-weight: 400;
@@ -961,16 +961,27 @@ body {
 
 
 .box-card {
-    position: relative;
 
+    position: relative;
+    
 }
 
 .text-card:hover {
     opacity: 1;
     background: #188CE8;
-    width: 400px;
-    height: 295px;
-    transform: translateY(-100px);
+    width: 100%;
+    height: 395px;
+    transform: translateY(-95px);
+
+
+}
+
+.text-card:focus-within {
+    opacity: 1;
+    background: #188CE8;
+    width: 100%;
+    height: 395px;
+    transform: translateY(-95px);
 
 
 }
