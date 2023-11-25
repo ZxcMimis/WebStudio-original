@@ -176,12 +176,16 @@
 }
 
 .modal-close {
-    padding: 5px 5px 1.5px 5px;
+    padding: 2px 5px 2px 5px;
     position: absolute;
     top: 8px;
     right: 8px;
     border: 2px solid #c9c9c9;
     border-radius: 50px;
+}
+
+.modal-close:hover{
+    fill: #2196f3;
 }
 
 .modal-clouse {
