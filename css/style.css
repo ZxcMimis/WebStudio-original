@@ -666,7 +666,8 @@ body {
     border: 1px solid #AFB1B8;
     cursor: pointer;
     fill: #AFB1B8;
-
+    transition: cubic-bezier(0.4, 0, 0.02, 1);
+    transition-duration: 250ms;
 
 
 }
@@ -679,7 +680,10 @@ body {
 .clients-item:focus-within {
     border: 1px solid #2196F3;
     fill: #2196F3;
+
 }
+
+
 
 .clients-icons {
     width: 106px;
