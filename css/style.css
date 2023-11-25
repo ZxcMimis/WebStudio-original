@@ -818,8 +818,8 @@ body {
 
 
 .header-svg {
-    max-width: 20px;
-    height: 15px;
+    width: 16px;
+    height: 15px ;
     fill: #757575;
 }
 
