@@ -332,6 +332,7 @@ body {
 .team-item {
     background: #ffffff;
     box-shadow: 0 px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-item:hover {
