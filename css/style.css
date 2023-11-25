@@ -499,6 +499,7 @@ body {
     line-height: 1.14;
     justify-content: right;
     position: relative;
+    
 }
 
 
@@ -534,6 +535,12 @@ body {
     left: 0;
 }
 
+
+.underline:after{
+    content: "";
+    opacity: 1;
+    transform: scaleX(1);
+}
 
 .header-icon {
     padding-right: 10px;
@@ -754,7 +761,8 @@ body {
 }
 
 .icon-team-item:hover {
-    transform: scale(1.250);
+    transform: scale(1.110);
+    transition: background-color 250ms linear ;
 }
 
 .icon-team {
@@ -939,7 +947,7 @@ body {
 
 }
 
-.text-card{
+.text-card {
     position: absolute;
     top: 0;
     left: 0;
@@ -963,7 +971,7 @@ body {
 .box-card {
 
     position: relative;
-    
+
 }
 
 .text-card:hover {

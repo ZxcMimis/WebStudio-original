@@ -94,7 +94,11 @@
     line-height: 30px;
     letter-spacing: 0.96px;
     margin-left: 120px;
+    border: 0px;
+}
 
+.modal-send:hover{
+    transform: scale(1.050);
 }
 
 
