@@ -9,6 +9,19 @@
     background: #ffffff;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 106%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input {
@@ -23,11 +36,30 @@
     
 }
 
-.modal-input:hover{
+.modal-input:hover {
+    border-radius: 4px;
     border: 2px solid #2196f3;
 }
 
+.modal-input:active {
+    border-radius: 4px;
+    border: 2px solid #2196f3;
+}
+
+.modal-label:hover .modal-persona,
+.modal-label:hover .modal-phone,
+.modal-label:hover .modal-email {
+    fill: #2196f3;
+}
+
+.modal-input:focus+.modal-persona,
+.modal-input:focus+.modal-phone,
+.modal-input:focus+.modal-email {
+    fill: #2196f3;
+}
+
 .modal-input:focus {
+    border-radius: 4px;
     border: 2px solid #2196f3;
 }
 
@@ -43,11 +75,13 @@
     padding-left: 15px;
 }
 
-.modal-comment:hover{
+.modal-comment:hover {
+    border-radius: 4px;
     border: 2px solid #2196f3;
 }
 
 .modal-comment:focus {
+    border-radius: 4px;
     border: 2px solid #2196f3;
 }
 
@@ -95,6 +129,7 @@
     letter-spacing: 0.96px;
     margin-left: 120px;
     border: 0px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-send:hover{
@@ -156,16 +191,7 @@
     letter-spacing: 0.12px;
 }
 
-.backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 106%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 1;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms linear 10ms;
-}
+
 
 .backdrop.is-hidden {
     opacity: 0;
