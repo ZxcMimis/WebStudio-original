@@ -124,6 +124,11 @@
 
 }
 
+.main-button:focus-within{
+    transform: scale(1.1);
+
+}
+
 .box-card {
     height: 294px;
     background-color: rgba(33, 150, 243, 0.9);
