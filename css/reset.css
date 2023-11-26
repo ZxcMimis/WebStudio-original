@@ -25,3 +25,7 @@ p{
 *{
     outline: none;
 }
+
+body {
+    font-family: 'Roboto';
+}
