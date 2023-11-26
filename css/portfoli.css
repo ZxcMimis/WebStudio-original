@@ -1,0 +1,152 @@
+.hero-main {
+    padding-top: 94px;
+}
+
+.button-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: #ffffff;
+    color: #212121;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-button:hover {
+    color: #ffffff;
+    background: #2196f3;
+}
+
+.hero-button:focus {
+    color: #ffffff;
+    background: #2196f3;
+}
+
+
+
+.posters-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+
+.poster {
+    padding-top: 50px;
+    padding-bottom: 94px
+}
+
+.poster-title {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin: 24px;
+
+}
+
+.poster-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 20px;
+}
+
+.poster-img {
+    width: 370px;
+    height: 294px;
+}
+
+
+
+
+
+.poster-item {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: calc((100% - 65px) / 3);
+    position: relative;
+    overflow: hidden;
+    transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 150ms linear 100ms;
+}
+
+.poster-item:hover {
+    transform: scale(1.050);
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.poster-item:focus-within {
+    transform: scale(1.050);
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.text-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding-top: 150px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.4s linear;
+    transition: 0.5s;
+    transform: translateY(10px);
+}
+
+
+.box-card {
+    position: relative;
+}
+
+.text-card:hover {
+    opacity: 1;
+    background: #188CE8;
+    width: 100%;
+    height: 395px;
+    transform: translateY(-95px);
+
+
+}
+
+.text-card:focus-within {
+    opacity: 1;
+    background: #188CE8;
+    width: 100%;
+    height: 395px;
+    transform: translateY(-95px);
+
+
+}
+
+.main-button {
+    transition: background-color 250ms linear 100ms, box-shadow 300ms linear 100ms, transform 150ms linear 100ms;
+}
+
+.main-button:hover {
+    transform: scale(1.1);
+
+}
