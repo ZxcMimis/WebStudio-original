@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
@@ -58,11 +59,11 @@
         <nav class="nav">
             <div class="container">
                 <ul class="button-list">
-                    <li class="main-button"><button class="hero-button" type="button">Усі</button></li>
-                    <li class="main-button"><button class="hero-button" type="button">Веб-сайт</button></li>
-                    <li class="main-button"><button class="hero-button" type="button">Додаток</button></li>
-                    <li class="main-button"><button class="hero-button" type="button">Дизайн</button></li>
-                    <li class="main-button"><button class="hero-button" type="button">Маркетинг</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Усі</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Веб-сайт</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Додаток</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Дизайн</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Маркетинг</button></li>
                 </ul>
             </div>
         </nav>
@@ -70,7 +71,7 @@
         <section class="poster">
         <div class="container">
             <ul class="posters-list">
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                     <img class="poster-img" src="./images/technocrack.jpg">
                     <div class="card-container">
@@ -83,7 +84,7 @@
                     </div>
                     </a>
                 </li>
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                         <img class="poster-img" src="./images/poster-new-orlean-vs-golden-star.jpg">
                         <div class="card-container">
@@ -96,7 +97,7 @@
                     </div>
                     </a>
                 </li>
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                     <img class="poster-img" src="./images/seafood-restaurant.jpg">
                     <div class="card-container">
@@ -108,7 +109,7 @@
                     </div>
                 </a>
                 </li>
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                     <img class="poster-img" src="./images/project-prime.jpg">
                     <div class="card-container">
@@ -120,7 +121,7 @@
                     </div>
                     </div></a>
                 </li>
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                     <img class="poster-img" src="./images/boxes-project.jpg">
                     <div class="card-container">
@@ -133,7 +134,7 @@
                     </div>
                     </a>
                 </li>
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                     <img class="poster-img" src="./images/inspiration-has-no-borders.jpg">
                     <div class="card-container">
@@ -146,7 +147,7 @@
                     </div>
                     </a>
                 </li>
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                     <img class="poster-img" src="./images/edition-limited-edition.jpg">
                     <div class="card-container">
@@ -159,7 +160,7 @@
                     </div>
                     </a>
                 </li>
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                     <img class="poster-img" src="./images/LAB-project.jpg">
                     <div class="card-container">
@@ -172,7 +173,7 @@
                     </div>
                     </a>
                 </li>
-                <li class="poster-item">
+                <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
                     <img class="poster-img" src="./images/growing-business.jpg">
                     <div class="card-container">
@@ -191,7 +192,8 @@
 
 
     <!--секція footer-->
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up"
+     data-aos-duration="3000">
         <div class="container">
             <ul class="footer-list">
                 <li class="footer-item"><a class="footer-logo" href="./index.html">Web<span class="footer-word">Studio</span></a>
@@ -253,6 +255,10 @@
         </div>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>

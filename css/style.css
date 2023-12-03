@@ -446,6 +446,7 @@ p {
 
 }
 
+
 /* team */
 
 .team {
@@ -466,6 +467,7 @@ p {
 .team-item {
     background: #ffffff;
     box-shadow: 0 px 4px rgba(0, 0, 0, 0.1);
+    animation: opacity-card 2s ease 200ms both;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -477,6 +479,16 @@ p {
 .team-item:focus {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transform: scale(1.050);
+}
+
+@keyframes opacity-cards {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 .team-title {

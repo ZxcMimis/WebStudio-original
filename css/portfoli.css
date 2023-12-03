@@ -90,6 +90,17 @@
     transition: background-color 250ms linear 100ms,
      box-shadow 300ms linear 100ms, 
      transform 150ms linear 100ms;
+     animation: opacity-poster 1.5s ease 50ms both;
+}
+
+@keyframes opacity-poster{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 .poster-item:hover {
@@ -122,6 +133,7 @@
 
 .main-button {
     transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .main-button:hover {
@@ -133,6 +145,8 @@
     transform: scale(1.1);
 
 }
+
+
 
 .box-card {
     height: 294px;
