@@ -1,10 +1,12 @@
+
+
+
 a,
 h2,
 p {
     text-decoration: none;
 
 }
-
 
 
 .container {
@@ -243,7 +245,7 @@ p {
 
     100% {
         transform: translateY(0);
-            opacity: 1;
+        opacity: 1;
     }
 }
 
@@ -482,11 +484,11 @@ p {
 }
 
 @keyframes opacity-cards {
-    0%{
+    0% {
         opacity: 0;
     }
 
-    100%{
+    100% {
         opacity: 1;
     }
 }
