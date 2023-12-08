@@ -430,19 +430,19 @@ p {
 }
 
 .section-item:first-child::before {
-  background-image: url(../images/antenna\ 1.png);
+  background-image: url("../../images/antenna.png");
 }
 
 .section-item:nth-child(2)::before {
-  background-image: url(../);
+  background-image: url("../../images/clock.png");
 }
 
 .section-item:nth-child(3)::before {
-  background-image: url(../images/diagram\ 1.png);
+  background-image: url("../../images/diagram.png");
 }
 
 .section-item:last-child::before {
-  background-image: url(../images/astronaut\ 1.png);
+  background-image: url("../../images/astronaut.png");
 }
 
 .section-title {
@@ -512,7 +512,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./img.png);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
