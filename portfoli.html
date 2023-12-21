@@ -16,57 +16,58 @@
 
 
 <body>
-   <header class="header">
-        <div class="container">
-            <div class="header-flex">
-                <a class="header-logo1" href="./index.html"><span class="header-logo2">Web</span>Studio</a>
-                <nav class="header-menu">
-                    <ul class="header-pages">
-                        <li class="header-item">
-                            <a class="header-link" href="./index.html">Студія</a>
-                        </li>
-                        <li class="header-item">
-                            <a class="header-link underline" href="./portfoli.html">Портфоліо</a>
-                        </li>
-                        <li class="header-item">
-                            <a class="header-link" href="./kontakt.html">Контакти</a>
-                        </li>
-                    </ul>
-                </nav>
-                <ul class="header-contacts">
-                    <li class="header-contact">
-                        <a class="header-emael navigation" href="mailto:info@devstudio.com">
-                            <svg class="header-svg">
-                                <use href="./svg/symbol-defs.svg#icon-email"></use>
-                            </svg>
-                            info@devstudio.com
-                        </a>
-                    </li>
-                    <li class="header-contact">
-                        <a class="header-phonenumber navigation" href="tel:+380961111111">
-                            <svg class="header-svg smartphone">
-                                <use href="./svg/symbol-defs.svg#icon-smartphone"></use>
-                            </svg>
-                            +38 096 111 11 11
-                        </a>
-                </li></ul>
-            </div>
+    <header class="header">
+      <div class="container">
+        <div class="header__flex">
+          <a class="header__logo1 " href="./index.html"><span class="header__logo2">Web</span>Studio</a>
+          <nav class="header__menu">
+            <ul class="header__pages ">
+              <li class="header__item ">
+                <a class="header__link  " href="./index.html">Студія</a>
+              </li>
+              <li class="header__item ">
+                <a class="header__link header__underline " href="./portfoli.html">Портфоліо</a>
+              </li>
+              <li class="header__item ">
+                <a class="header__link  " href="./kontakt.html">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header__contacts">
+            <li class="header__contact">
+              <a class="header__emael header__navigation" href="mailto:info@devstudio.com">
+                <svg class="header__svg">
+                  <use href="./svg/symbol-defs.svg#icon-email"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="header__contact">
+              <a class="header__phonenumber header__navigation" href="tel:+380961111111">
+                <svg class="header__svg" width="32" height="18">
+                  <use href="./svg/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </header>
-    <main class="hero-main">
+    <main class="main">
         <nav class="nav">
             <div class="container">
-                <ul class="button-list">
-                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Усі</button></li>
-                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Веб-сайт</button></li>
-                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Додаток</button></li>
-                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Дизайн</button></li>
-                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main-button"><button class="hero-button" type="button">Маркетинг</button></li>
+                <ul class="main__list">
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main__item"><button class="main__button" type="button">Усі</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main__item"><button class="main__button" type="button">Веб-сайт</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main__item"><button class="main__button" type="button">Додаток</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main__item"><button class="main__button" type="button">Дизайн</button></li>
+                    <li data-aos="zoom-in-up" data-aos-duration="1500"  class="main__item"><button class="main__button" type="button">Маркетинг</button></li>
                 </ul>
             </div>
         </nav>
     </main>
-        <section class="poster">
+       <section class="poster">
         <div class="container">
             <ul class="posters-list">
                 <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
@@ -105,7 +106,7 @@
                         <p class="text-card">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
                          Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
                     </div>
-                </a>
+                </div></li>a>
                 </li>
                 <li class="poster-item" data-aos="fade-up" data-aos-duration="500">
                     <a class="card-link" href="#">
@@ -189,69 +190,75 @@
         </section>
 
 
-    <!--секція footer-->
-    <footer class="footer" data-aos="fade-up"
-     data-aos-duration="3000">
-        <div class="container">
-            <ul class="footer-list">
-                <li class="footer-item"><a class="footer-logo" href="./index.html">Web<span class="footer-word">Studio</span></a>
-                </li>
-                <li class="footer-item">
-                    <address class="footer-info">м. Київ, пр-т Лесі Українки, 26</address>
-                </li>
-                <li class="footer-item"><a class="footer-address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="footer-item"><a class="footer-phonenumber" href="tel:+380961111111">+38 096 111 11 11</a></li>
 
-            </ul>
-                <div class="footer-box-svg">
-                    <h2 class="footer-icon-title">приєднуйтесь</h2>
-                    <ul class="footer-svg-list">
-                        <li class="footer-svg-item">
-                    <a class="footer-link" href="https://www.instagram.com">
-                    <svg class="footer-icon">
-                    <use href="./svg/symbol-defs.svg#icon-instagram"></use>
-                    </svg>
-                    </a>
-                        </li>
-                        <li class="footer-svg-item">
-                    <a class="footer-link" href="https://twitter.com/?lang=ru">
-                    <svg class="footer-icon">
-                    <use href="./svg/symbol-defs.svg#icon-twitter"></use>
-                    </svg>
-                    </a>
-                        </li>
-                    <li class="footer-svg-item">
-                    <a class="footer-link" href="https://www.facebook.com">
-                    <svg class="footer-icon">
-                    <use href="./svg/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                    </a>
-                        </li>
-                        <li class="footer-svg-item">
-                    <a class="footer-link" href="https://ua.linkedin.com">
-                    <svg class="footer-icon">
-                    <use href="./svg/symbol-defs.svg#icon-in"></use>
-                    </svg>
-                    </a>
-                        </li>
-                    </ul>
-                </div>
-                  <div class="our-telegram">
-          <div class="our-telegram-content">
-            <form class="our-telegram-form">
-              <label class="our-telegram-lable" for="our-telegram-form">Підпишіться на розсилку</label>
-              <div class="button-input-box">
-                <input class="footer-write" type="text" required placeholder="E-mail">
+<footer class="footer" data-aos="fade-up" data-aos-duration="3000">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__logo" href="./index.html">Web<span class="footer__word">Studio</span></a>
+          </li>
+          <li class="footer__item">
+            <address class="footer__info">
+              м. Київ, пр-т Лесі Українки, 26
+            </address>
+          </li>
+          <li class="footer__item">
+            <a class="footer__address" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__phonenumber" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+        <div class="footer__box-svg">
+          <h2 class="footer__icon-title">приєднуйтесь</h2>
+          <ul class="footer__svg-list">
+            <li class="footer__svg-item">
+              <a class="footer__link" href="https://www.instagram.com">
+                <svg class="footer__icon">
+                  <use href="./svg/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__svg-item">
+              <a class="footer__link" href="https://twitter.com/?lang=ru">
+                <svg class="footer__icon">
+                  <use href="./svg/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__svg-item">
+              <a class="footer__link" href="https://www.facebook.com">
+                <svg class="footer__icon">
+                  <use href="./svg/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__svg-item">
+              <a class="footer__link" href="https://ua.linkedin.com">
+                <svg class="footer__icon">
+                  <use href="./svg/symbol-defs.svg#icon-in"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-                <button class="footer-send">Підписатися</button>
-                <svg class="icon-footer-telegram">
+        <div class="footer__telegram">
+          <div class="footer__telegram-content">
+            <form class="footer__telegram-form">
+              <label class="footer__telegram-lable" for="footer__telegram-form">Підпишіться на розсилку</label>
+              <div class="footer__input-box">
+                <input class="footer__write" type="email" required placeholder="E-mail">
+
+                <button class="footer__send" type="submit">Підписатися</button>
+                <svg class="footer__icon-telegram">
                   <use href="./svg/symbol-defs.svg#icon-send"></use>
                 </svg>
               </div>
             </form>
           </div>
         </div>
-        </div>
+      </div>
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

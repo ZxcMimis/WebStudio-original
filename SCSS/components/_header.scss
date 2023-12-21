@@ -1,27 +1,27 @@
-.header {
+.header{
     border-bottom: solid 1px #ececec;
-}
 
-.header-flex {
+
+&__flex {
     display: flex;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 24px;
 }
 
-.header-navigation {
+&__navigation {
     display: flex;
     align-items: center;
 }
 
-.header-pages {
+&__pages {
     display: flex;
     gap: 50px;
     align-items: center;
     margin-left: 93px;
 }
 
-.header-link {
+&__link {
     font-weight: 500;
     color: #212121;
     font-size: 14px;
@@ -33,14 +33,14 @@
 }
 
 
-.header-link:hover {
+&__link:hover {
     color: #188CE8;
 
 }
 
 
 
-.header-link:focus {
+&__link:focus {
     color: #2196f3;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -48,7 +48,7 @@
 
 }
 
-.underline {
+&__underline {
     font-weight: 500;
     color: #212121;
     font-size: 14px;
@@ -59,7 +59,7 @@
 
 }
 
-.underline::after {
+&__underline::after {
     content: "";
     display: block;
     width: 100%;
@@ -72,29 +72,29 @@
 }
 
 
-.underline:after {
+&__underline:after {
     content: "";
     opacity: 1;
     transform: scaleX(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-icon {
+&__icon {
     padding-right: 10px;
 }
 
-.header-icon:hover {
+&__icon:hover {
     color: #2196f3;
 }
 
-.header-contacts {
+&__contacts {
     display: flex;
     gap: 50px;
     align-items: center;
     margin-left: auto;
 }
 
-.navigation {
+&__navigation {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -106,48 +106,48 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-svg {
+&__svg {
     width: 16px;
     height: 15px;
     fill: #757575;
 }
 
-.header-svg:hover {
+&__svg:hover {
     fill: #2196F3;
 }
 
 
-.navigation:hover .header-svg,
-.navigation:focus .header-svg {
+&__navigation:hover &__svg,
+&__navigation:focus &__svg {
     fill: #2196F3;
 }
 
-.header-emael {
+&__emael {
     color: #757575;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-emael:hover {
+&__emael:hover {
     color: #188CE8;
 
 }
 
-.header-emael:focus {
+&__emael:focus {
     color: #188CE8;
 
 }
 
-.header-phonenumber {
+&__phonenumber {
     color: #757575;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-phonenumber:hover {
+&__phonenumber:hover {
     color: #188CE8;
 
 }
 
-.header-phonenumber:focus {
+&__phonenumber:focus {
     color: #188CE8;
 
 }
@@ -156,7 +156,7 @@
     width: 500px;
 }
 
-.header-logo2 {
+&__logo2 {
     color: #2196f3;
     font-family: "Raleway";
     font-weight: 700;
@@ -165,11 +165,12 @@
     line-height: 1.19;
 }
 
-.header-logo1 {
+&__logo1 {
     color: #000000;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
     line-height: 1.19;
+}
 }

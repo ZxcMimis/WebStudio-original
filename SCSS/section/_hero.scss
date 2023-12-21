@@ -8,11 +8,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
 
 
 
-.container-two {
+
+&__container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,7 +22,7 @@
     gap: 30px;
 }
 
-.section-main {
+&__main {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -54,7 +54,7 @@
 
 
 
-.section-button {
+&__button {
     background: #2196f3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -76,13 +76,13 @@
     transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-button:hover {
+&__button:hover {
 
     transform: scale(1.075);
 }
 
-.section-button:hover,
-.section-button:focus {
+&__button:hover,
+&__button:focus {
     background-color: #075391;
     outline: none;
     transform: scale(1.075);
@@ -112,4 +112,5 @@
     100% {
         transform: scale(1);
     }
+}
 }

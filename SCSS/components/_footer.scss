@@ -1,6 +1,13 @@
 /* footer */
 
-.footer-icon-title {
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 50px;
+
+
+
+&__icon-title {
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
@@ -10,7 +17,7 @@
 
 }
 
-.footer-svg-list {
+&__svg-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +25,7 @@
     margin-right: 93px;
 }
 
-.footer-svg-item {
+&__svg-item {
     border-radius: 100%;
     padding: 12px;
     width: 44px;
@@ -28,32 +35,32 @@
         transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-svg-item:hover,
-.footer-svg-item:focus-within {
+&__svg-item:hover,
+&__svg-item:focus-within {
     background: #2196F3;
     transform: scale(1.125);
 }
 
-.footer-icon {
+&__icon {
     width: 20px;
     height: 20px;
     fill: #FFF;
 }
 
-.footer-list {
+&__list {
     width: 250px;
 }
 
-.footer .container {
+& .container {
     display: flex;
 }
 
-.footer-box-svg {
+&__box-svg {
     padding-top: 72px;
     padding-left: 70px;
 }
 
-.footer-write {
+&__write {
     width: 358px;
     height: 50px;
     border-radius: 4px;
@@ -66,7 +73,7 @@
     padding: 15px 20px 15px 16px;
 }
 
-.footer-send {
+&__send {
     width: 200px;
     height: 50px;
     flex-shrink: 0;
@@ -84,17 +91,17 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-send:hover {
+&__send:hover {
     background-color: #075391;
 
 }
 
 
-.footer-send:focus {
+&__send:focus {
     background-color: #075391;
 }
 
-.icon-footer-telegram {
+&__icon-telegram {
     fill: #fff;
     width: 24px;
     height: 24px;
@@ -106,7 +113,7 @@
 
 }
 
-.footer-logo {
+&__logo {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -117,7 +124,7 @@
     display: flex;
 }
 
-.footer-word {
+&__word {
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -126,7 +133,7 @@
     color: rgb(252, 252, 252);
 }
 
-.footer-info {
+&__info {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -139,7 +146,7 @@
 
 }
 
-.footer-phonenumber {
+&__phonenumber {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -153,7 +160,7 @@
 
 }
 
-.footer-address {
+&__address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -166,7 +173,7 @@
 
 }
 
-.our-telegram {
+&__telegram {
     position: relative;
     display: flex;
     justify-content: center;
@@ -175,7 +182,7 @@
     height: 86px;
 }
 
-.our-telegram-content {
+&__telegram-content {
     position: absolute;
     top: 209px;
     right: 575px;
@@ -186,12 +193,12 @@
     height: 86px;
 }
 
-.our-telegram-form {
+&__telegram-form {
     margin-bottom: 260px;
     margin-left: 1207px;
 }
 
-.our-telegram-lable {
+&__telegram-lable {
     color: #fff;
     font-family: Roboto;
     font-size: 14px;
@@ -204,16 +211,11 @@
 
 }
 
-.button-input-box {
+&__input-box {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding-top: 20px;
 }
-
-.footer {
-    background: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 50px;
 
 }
