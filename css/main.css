@@ -747,13 +747,13 @@ p {
   padding-bottom: 94px;
 }
 
-.posters-list {
+.posters__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.poster-title {
+.poster__title {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.06em;
@@ -761,7 +761,7 @@ p {
   margin: 24px;
 }
 
-.poster-text {
+.poster__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
@@ -770,12 +770,12 @@ p {
   margin: 20px;
 }
 
-.poster-img {
+.poster__img {
   width: 370px;
   height: 294px;
 }
 
-.poster-item {
+.poster__item {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   flex-basis: calc((100% - 65px) / 3);
   position: relative;
@@ -792,29 +792,29 @@ p {
     opacity: 1;
   }
 }
-.poster-item:hover {
+.poster__item:hover {
   transform: scale(1.05);
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.poster-item:focus-within {
+.poster__item:focus-within {
   transform: scale(1.05);
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
-.text-card:hover {
+.poster__text__card:hover {
   opacity: 1;
   width: 100%;
   height: 395px;
 }
 
-.text-card:focus-within {
+.poster__text__card:focus-within {
   opacity: 1;
   width: 100%;
   height: 395px;
 }
 
-.box-card {
+.poster__box__card {
   height: 294px;
   background-color: rgba(33, 150, 243, 0.9);
   position: absolute;
@@ -829,12 +829,12 @@ p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.poster-item:hover .box-card,
-.card-link:focus .box-card {
+.poster__item:hover .poster__box__card,
+.poster__link:focus .poster__box__card {
   transform: translateY(0%);
 }
 
-.text-card {
+.poster__text__card {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
