@@ -692,6 +692,15 @@ p {
 .main {
   padding-top: 94px;
 }
+.main-button {
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-button:hover {
+  transform: scale(1.1);
+}
+.main-button:focus-within {
+  transform: scale(1.1);
+}
 .main__list {
   display: flex;
   align-items: center;
@@ -723,16 +732,25 @@ p {
   color: #ffffff;
   background: #2196f3;
 }
-
-.posters-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+.main__item {
+  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main__item:hover {
+  transform: scale(1.1);
+}
+.main__item:focus-within {
+  transform: scale(1.1);
 }
 
 .poster {
   padding-top: 50px;
   padding-bottom: 94px;
+}
+
+.posters-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .poster-title {
@@ -794,18 +812,6 @@ p {
   opacity: 1;
   width: 100%;
   height: 395px;
-}
-
-.main-button {
-  transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.main-button:hover {
-  transform: scale(1.1);
-}
-
-.main-button:focus-within {
-  transform: scale(1.1);
 }
 
 .box-card {
