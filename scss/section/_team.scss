@@ -101,15 +101,7 @@
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1) color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-team-item:hover {
-    transform: scale(1.110);
 
-}
-
-.icon-team-item:focus-within {
-    transform: scale(1.110);
-
-}
 
 &__icon {
     width: 20px;

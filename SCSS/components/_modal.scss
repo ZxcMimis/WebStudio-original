@@ -1,4 +1,4 @@
-.modal-window {
+.modal__window {
     position: absolute;
     top: 50%;
     right: 27%;
@@ -15,7 +15,7 @@
 
 }
 
-.backdrop.is-hidden .modal-window {
+.backdrop.is-hidden .modal__window {
     transform: translate(-50%, -50%) scale(0);
 }
 
@@ -105,7 +105,7 @@
     position: relative;
 }
 
-.modal-text {
+.modal__text {
     color: #212121;
     text-align: center;
     font-family: Roboto;
