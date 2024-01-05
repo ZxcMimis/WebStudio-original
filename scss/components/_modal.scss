@@ -8,10 +8,10 @@
     border-radius: 4px;
     background: #ffffff;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-        transform: translate(-50%, -50%) scale(1);
-        
-            transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transform: translate(-50%, -50%) scale(1);
+
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -35,21 +35,21 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     width: 448px;
     height: 40px;
-    flex-shrink: 0;
+    @extend %flex-shrink;
     margin-bottom: 10px;
     margin-top: 4px;
     padding-left: 35px;
-    
+
 }
 
 .modal-input:hover {
     border-radius: 4px;
-    border: 2px solid #2196f3;
+    @extend %border;
 }
 
 .modal-input:active {
     border-radius: 4px;
-    border: 2px solid #2196f3;
+    @extend %border;
 }
 
 .modal-label:hover .modal-persona,
@@ -66,12 +66,12 @@
 
 .modal-input:focus {
     border-radius: 4px;
-    border: 2px solid #2196f3;
+    @extend %border;
 }
 
 
 .modal-comment {
-    flex-shrink: 0;
+    @extend %flex-shrink;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     margin-top: 4px;
@@ -83,18 +83,18 @@
 
 .modal-comment:hover {
     border-radius: 4px;
-    border: 2px solid #2196f3;
+    @extend %border;
 }
 
 .modal-comment:focus {
     border-radius: 4px;
-    border: 2px solid #2196f3;
+    @extend %border;
 }
 
 .modal-checkbox {
     width: 16px;
     height: 15px;
-    flex-shrink: 0;
+    @extend %flex-shrink;
     fill: #212121;
     margin-top: 19px;
     margin-right: 4px;
@@ -124,7 +124,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     width: 200px;
     height: 50px;
-    flex-shrink: 0;
+    @extend %flex-shrink;
     color: #fff;
     text-align: center;
     font-family: Roboto;
@@ -138,7 +138,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-send:hover{
+.modal-send:hover {
     transform: scale(1.050);
 }
 
