@@ -4,6 +4,14 @@
   align-items: center;
 }
 
+.modal-send, .modal-checkbox, .modal-comment, .modal-input, .footer__icon-telegram, .footer__send {
+  flex-shrink: 0;
+}
+
+.modal-comment:focus, .modal-comment:hover, .modal-input:focus, .modal-input:active, .modal-input:hover {
+  border: 2px solid #2196f3;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -245,7 +253,6 @@ p {
 .footer__send {
   width: 200px;
   height: 50px;
-  flex-shrink: 0;
   border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -269,7 +276,6 @@ p {
   fill: #fff;
   width: 24px;
   height: 24px;
-  flex-shrink: 0;
   position: absolute;
   right: -575px;
 }
@@ -835,7 +841,6 @@ p {
   border: 1px solid rgba(33, 33, 33, 0.2);
   width: 448px;
   height: 40px;
-  flex-shrink: 0;
   margin-bottom: 10px;
   margin-top: 4px;
   padding-left: 35px;
@@ -843,12 +848,10 @@ p {
 
 .modal-input:hover {
   border-radius: 4px;
-  border: 2px solid #2196f3;
 }
 
 .modal-input:active {
   border-radius: 4px;
-  border: 2px solid #2196f3;
 }
 
 .modal-label:hover .modal-persona,
@@ -865,11 +868,9 @@ p {
 
 .modal-input:focus {
   border-radius: 4px;
-  border: 2px solid #2196f3;
 }
 
 .modal-comment {
-  flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-top: 4px;
@@ -881,18 +882,15 @@ p {
 
 .modal-comment:hover {
   border-radius: 4px;
-  border: 2px solid #2196f3;
 }
 
 .modal-comment:focus {
   border-radius: 4px;
-  border: 2px solid #2196f3;
 }
 
 .modal-checkbox {
   width: 16px;
   height: 15px;
-  flex-shrink: 0;
   fill: #212121;
   margin-top: 19px;
   margin-right: 4px;
@@ -922,7 +920,6 @@ p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
-  flex-shrink: 0;
   color: #fff;
   text-align: center;
   font-family: Roboto;

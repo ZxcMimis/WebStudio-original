@@ -93,10 +93,7 @@
 &__box__card {
     height: 294px;
     background-color: rgba(33, 150, 243, 0.9);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    @include overlay;
     padding: 63px 24px;
     transform: translatey(-100%);
     cursor: pointer;
