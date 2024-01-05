@@ -17,9 +17,7 @@
     }
 
     &__list {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @extend %list-posisition;
         gap: 8px;
     }
 

@@ -1,8 +1,5 @@
 .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ;
+@extend %list-posisition;
     flex-direction: column;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero.png");
     background-repeat: no-repeat;
@@ -13,9 +10,7 @@
 
 
 &__container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@extend %list-posisition;
     flex-direction: column;
     padding-top: 200px;
     padding-bottom: 200px;

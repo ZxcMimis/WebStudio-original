@@ -1,3 +1,9 @@
+.main__list, .work__box, .hero__container, .hero, .clients__list, .footer__telegram-content, .footer__telegram, .footer__svg-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -194,9 +200,6 @@ p {
   margin-bottom: 20px;
 }
 .footer__svg-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
   margin-right: 93px;
 }
@@ -321,9 +324,6 @@ p {
 }
 .footer__telegram {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 570px;
   height: 86px;
 }
@@ -331,9 +331,6 @@ p {
   position: absolute;
   top: 209px;
   right: 575px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 570px;
   height: 86px;
 }
@@ -417,9 +414,6 @@ p {
   margin-bottom: 50px;
 }
 .clients__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 30px;
 }
 .clients__item {
@@ -442,9 +436,6 @@ p {
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../images/hero.png");
   background-repeat: no-repeat;
@@ -452,9 +443,6 @@ p {
   background-position: center;
 }
 .hero__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -561,9 +549,6 @@ p {
 }
 .work__box {
   width: 370px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: rgba(47, 48, 58, 0.8);
   padding-top: 27px;
   padding-bottom: 27px;
@@ -588,7 +573,6 @@ p {
   width: 370px;
 }
 
-/* team */
 .team {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -693,9 +677,6 @@ p {
   transform: scale(1.1);
 }
 .main__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 8px;
 }
 .main__button {
