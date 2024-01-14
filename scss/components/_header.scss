@@ -1,12 +1,22 @@
 .header{
     border-bottom: solid 1px #ececec;
 
+        @media screen and (min-width: 768px) {
+                padding-top: 21px;
+                padding-bottom: 21px;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                padding-top: 24px;
+                padding-bottom: 25px;
+            }
 
 &__flex {
     display: flex;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 24px;
+
 }
 
 &__navigation {
@@ -15,10 +25,14 @@
 }
 
 &__pages {
-    display: flex;
+    display: none;
     gap: 50px;
     align-items: center;
     margin-left: 93px;
+    
+    @media screen and (min-width: 768px) {
+            display: flex;
+    }
 }
 
 &__link {
@@ -30,6 +44,9 @@
     justify-content: right;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        @media screen and (min-width: 1200px) {
+                font-size: 14px;
+            }
 }
 
 
@@ -88,10 +105,21 @@
 }
 
 &__contacts {
-    display: flex;
+    display: none;
     gap: 50px;
     align-items: center;
     margin-left: auto;
+
+        @media screen and (min-width: 768px) {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+        
+            @media screen and (min-width: 1200px) {
+                flex-direction: row;
+                gap: 50px;
+            }
 }
 
 &__navigation {
@@ -159,6 +187,7 @@
     font-size: 26px;
     letter-spacing: 0.03em;
     line-height: 1.19;
+
 }
 
 &__logo1 {
@@ -168,5 +197,31 @@
     font-size: 26px;
     letter-spacing: 0.03em;
     line-height: 1.19;
+        @media screen and (min-width: 1200px) {
+                line-height: 31px;
+                font-size: 26px;
+                margin-right: 93px;
+            }
 }
+
+&__bth{
+    background-color: #fff;
+        border: none;
+        width: 40px;
+        height: 40px;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+    
+            @media screen and (min-width: 768px) {
+                    display: none;
+                }
+}
+
+&__burger{
+    width: 40px;
+    height: 40px;
+}
+
+
 }
