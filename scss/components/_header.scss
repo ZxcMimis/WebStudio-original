@@ -1,17 +1,14 @@
 .header {
     height: auto;
         border-bottom: 1px solid #ece;
-        padding-top: 16px;
-        padding-bottom: 16px;
+;
     
         @media screen and (min-width: 768px) {
-            padding-top: 21px;
-            padding-bottom: 21px;
+
         }
     
         @media screen and (min-width: 1200px) {
-            padding-top: 24px;
-            padding-bottom: 25px;
+
         }
 
 &__flex {

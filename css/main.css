@@ -56,9 +56,9 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .container {
-    width: 480px;
+    width: 320px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -75,20 +75,6 @@ p {
 .header {
   height: auto;
   border-bottom: 1px solid #ece;
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-@media screen and (min-width: 768px) {
-  .header {
-    padding-top: 21px;
-    padding-bottom: 21px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-  }
 }
 .header__flex {
   display: flex;
@@ -542,12 +528,6 @@ p {
   background-repeat: no-repeat;
   background-size: 480px 480px cover;
   background-position: center;
-}
-@media screen and (min-width: 1200px) {
-  .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
-  }
 }
 @media screen and (min-width: 1200px) {
   .hero {
