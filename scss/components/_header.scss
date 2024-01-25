@@ -1,7 +1,5 @@
 .header {
     height: auto;
-        border-bottom: 1px solid #ece;
-;
     
         @media screen and (min-width: 768px) {
 
@@ -109,6 +107,7 @@
     gap: 50px;
     align-items: center;
     margin-left: auto;
+    
         
             @media screen and (min-width: 768px) {
                 display: flex;
