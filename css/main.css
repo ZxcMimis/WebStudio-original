@@ -74,13 +74,20 @@ p {
 
 .header {
   height: auto;
-  border-bottom: 1px solid #ece;
+  padding-top: 24px;
+  padding-bottom: 7px;
 }
 .header__flex {
   display: flex;
   align-items: center;
   padding-top: 25px;
   padding-bottom: 24px;
+}
+@media screen and (min-width: 320px) {
+  .header__flex {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 .header__navigation {
   display: flex;
@@ -95,6 +102,7 @@ p {
 @media screen and (min-width: 768px) {
   .header__pages {
     display: flex;
+    margin-left: 88px;
   }
 }
 .header__link {
@@ -256,13 +264,14 @@ p {
   }
 }
 .header__bth {
-  background-color: #fff;
+  background-color: transparent;
   border: none;
   width: 40px;
   height: 40px;
   margin-left: auto;
   display: flex;
-  flex-direction: row;
+  justify-content: end;
+  flex-direction: column;
 }
 @media screen and (min-width: 768px) {
   .header__bth {
@@ -447,6 +456,23 @@ p {
   gap: 30px;
   padding-top: 94px;
   padding-bottom: 94px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .advantage__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 738px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .advantage__list {
+    max-width: 1170px;
+    flex-wrap: nowrap;
+  }
 }
 .advantage__item::before {
   content: "";
@@ -457,6 +483,7 @@ p {
   border-radius: 4px;
   background-position: center;
   margin-bottom: 30px;
+  max-width: 1170px;
 }
 .advantage__item:first-child::before {
   background-image: url("../../images/antenna.png");
@@ -478,6 +505,7 @@ p {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
+  text-align: center;
 }
 .advantage__Description {
   font-weight: 400;
@@ -528,11 +556,7 @@ p {
   background-repeat: no-repeat;
   background-size: 480px 480px cover;
   background-position: center;
-}
-@media screen and (min-width: 1200px) {
-  .hero {
-    background-size: cover;
-  }
+  background-size: cover;
 }
 .hero__container {
   flex-direction: column;
@@ -542,7 +566,6 @@ p {
 }
 .hero__main {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -557,7 +580,12 @@ p {
 }
 @media screen and (min-width: 480px) {
   .hero__main {
-    width: 360px;
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__main {
+    font-size: 26px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -602,7 +630,8 @@ p {
 }
 @media screen and (min-width: 1200px) {
   .hero__button {
-    width: 216px;
+    display: flex;
+    text-align: center;
   }
 }
 .hero__button:hover {
@@ -636,6 +665,12 @@ p {
 
 .work {
   padding-bottom: 94px;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .work {
+    display: block;
+  }
 }
 .work__list {
   justify-content: space-evenly;
@@ -688,12 +723,38 @@ p {
   padding-bottom: 94px;
   padding-top: 94px;
   background: #F5F4FA;
+  width: 100%;
+  height: 2761px;
+}
+@media screen and (min-width: 1200px) {
+  .team {
+    width: 100%;
+    height: 708px;
+  }
 }
 .team__list {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
+  width: 450px;
+  height: 622px;
+}
+@media screen and (min-width: 768px) {
+  .team__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 354px;
+    height: 536px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__list {
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 428px;
+  }
 }
 .team__item {
   background: #ffffff;

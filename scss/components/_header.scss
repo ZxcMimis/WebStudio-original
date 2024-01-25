@@ -1,5 +1,7 @@
 .header {
     height: auto;
+    padding-top: 24px;
+    padding-bottom: 7px;
     
         @media screen and (min-width: 768px) {
 
@@ -14,6 +16,11 @@
     align-items: center;
     padding-top: 25px;
     padding-bottom: 24px;
+
+        @media screen and (min-width: 320px) {
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
 
 }
 
@@ -30,6 +37,7 @@
     
     @media screen and (min-width: 768px) {
             display: flex;
+            margin-left: 88px;
     }
 }
 
@@ -113,6 +121,7 @@
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
+                
             }
         
             @media screen and (min-width: 1200px) {
@@ -216,16 +225,17 @@
 }
 
 &__bth{
-    background-color: #fff;
-        border: none;
-        width: 40px;
-        height: 40px;
-        margin-left: auto;
-        display: flex;
-        flex-direction: row;
+        background-color: transparent;
+            border: none;
+            width: 40px;
+            height: 40px;
+            margin-left: auto;
+            display: flex;
+            justify-content: end;
+            flex-direction: column;
+            
         
-    
-        @media screen and (min-width: 768px) {
+            @media screen and (min-width: 768px) {
                 display: none;
             }
 }
